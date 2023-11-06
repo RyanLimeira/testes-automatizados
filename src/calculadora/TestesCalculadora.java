@@ -2,6 +2,14 @@ package calculadora;
 
 import org.junit.Test;
 
+/**
+ * Calculadora - Um conjunto de classes para operações matemáticas básicas.
+ * @author - Ryan Limeira
+ * @since -  05/11/2023
+ * @version - 1.1
+ */
+
+// Classe de testes para operações matemáticas da calculadora
 public class TestesCalculadora {
 
     @Test
@@ -27,7 +35,6 @@ public class TestesCalculadora {
         // Teste 3 - Soma de -1 + -1
         int testeSoma3 = soma.somar(-1, -1); // Realiza a soma
         System.out.println("TESTE 3 - SOMA: " + testeSoma3); // Exibe o resultado
-        
         
         
         //Testes SUBTRACAO
